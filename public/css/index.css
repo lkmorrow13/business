@@ -1,0 +1,19 @@
+html body {
+	background-color: grey;
+}
+
+.photosize {
+	height: 250px;
+	width: 200px;
+	margin: 10px;
+}
+
+.centerIt {
+	text-align: center;
+}
+
+.contactBox {
+	background-color: white;
+	border-radius: .25rem;
+	padding: 20px;
+}

@@ -25,5 +25,6 @@ post '/contactUs' do
 	@email = params[:email]
 	@subject = params[:subject]
 	@content = params[:content]
-	Pony.mail(:to => 'you@example.com', :from => @email, :subject => @subject, :body => @content)
+	Pony.mail(:to => 'lmorrow13@live.com', :from => @email, :subject => @subject, :body => @content)
+	redirect '/contact'
 end
